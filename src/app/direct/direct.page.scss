@@ -36,4 +36,26 @@
   .ion-text-center{
     text-align: center
   }
-  
+
+  .header-collapse-condense ion-toolbar:first-of-type{
+    padding-top:25px;
+    
+  }
+  .ion-footer{
+    padding-bottom: 50px;
+  }
+  .ion-content{
+
+    --offset-top: -px;
+
+  }
+  #bottum{
+    --padding-start: 0.5em;
+  }
+  ion-footer{
+    display: flex;
+    align-items: flex-end;
+    margin: auto; 
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
